@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "build": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css",
+    "watch": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.2.2",
+    "gsap": "^3.14.2",
+    "tailwindcss": "^4.2.2"
+  }
+}
